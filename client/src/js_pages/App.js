@@ -6,7 +6,7 @@ function App() {
     <div>
       <div className="container mt-4">
         <h1>Welcome to the Outfits</h1>
-        
+        <SharedFeed />
         <div className="mt-3 d-flex flex-wrap gap-2">
           <Link to="/login" className="btn btn-outline-primary">Log In</Link>
           <Link to="/signup" className="btn btn-primary">Create Account</Link>
@@ -14,7 +14,6 @@ function App() {
           <Link to="/assembler" className="btn btn-outline-secondary">Outfit Assembler</Link>
           <Link to="/season" className="btn btn-outline-secondary">Season Analysis</Link>
         </div>
-        <SharedFeed />
       </div>
     </div>
   );
