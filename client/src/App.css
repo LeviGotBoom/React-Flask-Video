@@ -1,38 +1,81 @@
-.App {
-  text-align: center;
+/* ===== Pink Theme Styles ===== */
+
+body {
+  background-color: #fff0f6;
+  font-family: 'IBM Plex Sans', sans-serif;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* ===== Pink Buttons ===== */
+.pink-btn {
+  background-color: #f8b3c9;
+  border: 1px solid #f38bb0;
+  color: #fff;
+  font-weight: 500;
+  transition: all 0.2s ease-in-out;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.pink-btn:hover {
+  background-color: #f38bb0;
+  border-color: #d63384;
+  color: #fff;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+/* ===== Pink Outline Buttons ===== */
+.pink-outline-btn {
+  border: 1px solid #f38bb0;
+  color: #f38bb0;
+  background-color: transparent;
+  transition: all 0.2s ease-in-out;
 }
 
-.App-link {
-  color: #61dafb;
+.pink-outline-btn:hover {
+  background-color: #f38bb0;
+  color: #fff;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* ===== Pink Navbar ===== */
+.navbar {
+  background-color: #ffe6ef !important;
+  transition: background-color 0.3s ease;
+}
+
+.navbar:hover {
+  background-color: #ffd9e6 !important;
+}
+
+/* ===== Headings and Text ===== */
+h1, h2, h3, h4, h5 {
+  color: #d63384;
+}
+
+p, label, span, a {
+  color: #b82e6f;
+}
+
+/* ===== Cards and Modals ===== */
+.card, .modal-content {
+  border-color: #f38bb0;
+  border-radius: 8px;
+}
+
+/* ===== Alerts ===== */
+.alert-danger {
+  background-color: #f8b3c9;
+  border-color: #f38bb0;
+  color: #721c24;
+}
+
+/* ===== Light Pink Delete Buttons ===== */
+.pink-delete-btn {
+  background-color: #fbd1dc; /* light pink */
+  border: 1px solid #f38bb0;
+  color: #b82e6f;
+  font-weight: 500;
+  transition: all 0.2s ease-in-out;
+}
+
+.pink-delete-btn:hover {
+  background-color: #f38bb0;
+  color: #fff;
+  border-color: #d63384;
 }
