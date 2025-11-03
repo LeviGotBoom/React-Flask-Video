@@ -17,10 +17,11 @@ function App() {
       >
         <div className="container-fluid d-flex justify-content-between align-items-center">
           {/* Left side buttons */}
-          <div className="d-flex flex-wrap justify-content-center gap-2">
-            <Link to="/create" className="button">Wardrobe</Link>
-            <Link to="/assembler" className="button">Outfit Assembler</Link>
-            <Link to="/season" className="button">Season Analysis</Link>
+          <div className="d-flex align-items-center gap-2 flex-wrap">
+          <Link to="/" className="button">Home</Link>
+          <Link to="/create" className="button">Wardrobe</Link>
+          <Link to="/assembler" className="button">Outfit Assembler</Link>
+          <Link to="/season" className="button">Season Analysis</Link>
           </div>
 
           {/* Right side buttons */}

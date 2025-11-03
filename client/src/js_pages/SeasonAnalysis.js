@@ -43,11 +43,12 @@ function SeasonAnalysisPage() {
         }}
       >
         <div className="container-fluid d-flex justify-content-between align-items-center flex-wrap">
-          <div className="d-flex align-items-center gap-2 flex-wrap">
-            <Link to="/" className="button">Home</Link>
-            <Link to="/create" className="button">Wardrobe</Link>
-            <Link to="/assembler" className="button">Assembler</Link>
-          </div>
+        <div className="d-flex align-items-center gap-2 flex-wrap">
+          <Link to="/" className="button">Home</Link>
+          <Link to="/create" className="button">Wardrobe</Link>
+          <Link to="/assembler" className="button">Outfit Assembler</Link>
+          <Link to="/season" className="button">Season Analysis</Link>
+        </div>
         </div>
       </nav>
 
