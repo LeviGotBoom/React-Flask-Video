@@ -77,7 +77,7 @@ function LoginPage() {
             className="text-center mb-4"
             style={{ color: '#de798cff', fontWeight: 700 }}
           >
-            💗 Log In
+            Log In
           </h1>
 
           {error && (

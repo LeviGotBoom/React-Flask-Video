@@ -77,7 +77,7 @@ function SignUpPage() {
             className="text-center mb-4"
             style={{ color: '#de798cff', fontWeight: 700 }}
           >
-            ✨ Create Your Account
+            Create Your Account
           </h1>
 
           {error && (
